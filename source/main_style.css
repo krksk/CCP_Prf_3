@@ -1,0 +1,147 @@
+
+
+
+
+/*Main Style*/
+html {scroll-behavior: smooth;}
+body { background-color: #222222; margin-top: -60px;}
+#logo_type{top:21px; right:92%; z-index: 11; position: fixed;}
+#logoSpread{font-family: 'Cantata One', serif; font-weight: bolder; font-size: 20px; position: fixed; color: #cccccc; z-index: 3; top: 28px; left: 9.2%; transition: all 0.2s ease-in; width:400px; }
+#logo_type:hover #logoSpread {z-index: 11;}
+
+#nav_menu{position: fixed; margin-top: 84px;}
+#nav_menu {right: 2.5%; z-index: 11;}
+#nav_menu tr {color:#cccccc;}
+#nav_menu tr th {font-family: 'Cantata One', serif; font-weight: lighter; font-size: 20px; padding: 0.1vw 2vw 0.1vw 0.1vw; transition: all 0.2s ease-in;}
+svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
+
+#nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
+#sub-menu {position: absolute; background: #333333; opacity: 0; visibility: hidden; transition: all 0.2s ease-in; font-family: "Noto Serif KR", serif; font-size: 15px;}
+#sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #444444;}
+#sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
+
+#nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
+#sub-menu {position: absolute; background: #333333; opacity: 0; visibility: hidden; transition: all 0.2s ease-in; font-family: "Noto Serif KR", serif; font-size: 15px;}
+#sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #444444;}
+#sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
+
+#menu1:hover {text-decoration: underline;}
+#menu2:hover {text-decoration: underline;}
+#menu3:hover {text-decoration: underline;}
+#menu4:hover {text-decoration: underline;}
+
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:14000px; width: 600px; height: 80px; margin:auto; position: relative; text-align: center;}
+
+/* #monitor {top: 25px; width: 100px; height: 40px; background: red; position: fixed; right: 0px; line-height: 40px; color: white; z-index: 12;} */
+
+
+
+
+/* navigation menu */
+
+#lft_nav_menu{display:block; position: fixed; top: 9vw; left:19%; width:10vw; float: left;}
+#lft_nav_menu dl {color:#666666;}
+#lft_nav_menu dl dt {font-family: "Noto Serif KR", serif; font-size:0.7vw; border-bottom: 0.1px solid #666666; padding: 1.5vw 0px 0.3vw 0.1vw; margin: 0.1vw 0px 0px 0px;}
+#topb{position: fixed; margin: auto; width: 50px; height: 50px; left:84%; top:88%;}
+#topb:hover{animation: tops 0.75s both;}
+@keyframes tops {
+	0% {opacity: 0; top:88%;}
+	100% {opacity: 1; top:87%;}}
+#title_1{font-weight: bolder; text-align: center;}
+
+
+
+
+/* Contents */
+
+#container{display: block; font-size:15px; box-sizing: border-box; position: relative; left: 5%; width: 46vw; height: 13500px; margin: 0 auto; overflow: hidden; top:200px;}
+#container_contents{font-family: "Noto Serif KR", serif; text-align: left; color:#cccccc; line-height:2.0; font-size:18px;}
+#class_line{display: block; position: relative; color: #cccccc; left: 0.1%; z-index: -1;}
+
+#enter{display: block; margin: auto; animation: entering 3s;}
+  @keyframes entering{
+    0%{opacity:0;}
+    100%{opacity:1;}}
+
+#title{font-size:1.5vw; overflow:hidden; top:480px; width: 20vw; height: 2.8vw; margin:auto; position: relative; text-align: center; border-bottom: 0.5px solid gray; animation: title_move 1s linear forwards paused;}
+  @keyframes title_move {
+    from {width: 0;}
+    to {width: 20vw;}}
+
+  #a1{font-size:0.7vw; top:1415px; width: 540px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing 1.5s 1.5s steps(40, end)both paused;}
+  #a2{font-size:0.7vw; top:1450px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden; white-space: nowrap; border-right: .15em solid #fff; animation: typing2 1.5s 3.2s steps(40, end) both paused;}
+  #a3{font-size:0.7vw; top:1485px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing3 1.5s 5.1s steps(40, end)both paused;}
+  #a4{font-size:0.7vw; top:1520px; width: 400px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing4 1.5s 6.85s steps(40, end) both paused, blink-caret .75s 5.35s step-end infinite both;}
+    @keyframes typing {
+      from {width: 0;}
+      to {width: 32em; border-right: 0em;}}
+    @keyframes typing2 {
+      from {width: 0; border-right: 0em;}
+      to {width: 35.3em; border-right: 0em;}}
+    @keyframes typing3 {
+      from {width: 0; border-right: 0em;}
+      to {width: 33.3em; border-right: 0em;}}
+    @keyframes typing4 {
+      from {width: 0; border-right: 0em;}
+      to {width: 32.9em;}}
+    @keyframes blink-caret {
+      from, to {border-color: #cccccc}
+      50% {border-color: #000;}}
+
+#field{display: block; width: 4000px; overflow: hidden; height: 560px; left: 0px; top: 260px; position: relative; transition: all 1s; animation: move 40s linear forwards paused; z-index: -1; white-space: normal;}
+  @keyframes move{
+    0%{left: 0px;}
+    100%{left: -2000px;}}
+
+
+
+
+#start{top:1860px; position: absolute; text-align: left;}
+
+#map1{position:relative; display: block; margin: auto; width:46vw; height:27vw;}
+.label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:10px; color: black;}
+#label2 {font-family: "Noto Serif KR", serif; width:180px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label3 {font-family: "Noto Serif KR", serif; width:190px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label4 {font-family: "Noto Serif KR", serif; width:160px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label5 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label6 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label7 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label8 {font-family: "Noto Serif KR", serif; width:270px; background-color:white; font-size:12px; padding:5px; color: black;}
+#label9 {font-family: "Noto Serif KR", serif; width:250px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label10 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label11 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
+
+#dP_headline_Picture{display: block; width: 46vw; height: 32vw; position: relative; margin: auto; transition: all 1s;}
+
+
+
+#hovering:hover{background-color: #333333;}
+
+#dP_montage_1{display: block; position:relative;  margin:0px auto; margin-top: -340px; width:500px; height:620px; transition: all 0.15s ease-in;}
+#dP_montage_contents{width:410px; height: 320px; font-size:20px; top: 110px; margin:auto; position: relative; text-align: left; line-height:2.0; z-index:1; opacity: 0; visibility: visible; transition: all 0.15s ease-in;}
+#dP_montage_contents:hover{opacity: 1; visibility: visible;}
+#dP_montage_contents:hover + #dP_montage_1{opacity: 0.3;}
+
+
+
+
+#susPicture{display: block; width: 46vw; height: 35vw; position: relative; margin: auto; transition: all 1s;}
+
+#map2{position:relative; display: block; margin: auto; width:46vw; height:27vw;}
+
+
+
+#ending_finale1{font-size:32px; top:200px; margin:auto; position: relative; text-align: center; transition: all 0.1s; animation: ed_move2 2s linear forwards paused;}
+#ending_finale2{font-size:32px; top:210px; margin:auto; opacity: 0; position: relative; text-align: center; transition: all 0.1s; animation: ed_move3 2s 2s linear forwards paused;}
+
+@keyframes ed_move2{
+      0%{opacity: 0;}
+      100%{opacity: 1;}
+    }
+
+@keyframes ed_move3{
+      0%{opacity: 0;}
+      100%{opacity: 1;}
+    }
+
+#end_report{font-size:18px; margin:auto; position: relative; text-align: center; line-height:2.2;}
