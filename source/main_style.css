@@ -68,10 +68,10 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
     from {width: 0;}
     to {width: 20vw;}}
 
-  #a1{font-size:0.7vw; top:1415px; width: 540px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing 1.5s 1.5s steps(40, end)both paused;}
-  #a2{font-size:0.7vw; top:1450px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden; white-space: nowrap; border-right: .15em solid #fff; animation: typing2 1.5s 3.2s steps(40, end) both paused;}
-  #a3{font-size:0.7vw; top:1485px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing3 1.5s 5.1s steps(40, end)both paused;}
-  #a4{font-size:0.7vw; top:1520px; width: 400px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing4 1.5s 6.85s steps(40, end) both paused, blink-caret .75s 5.35s step-end infinite both;}
+  #a1{font-size:0.7vw; top:1715px; width: 540px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing 1.5s 1.5s steps(40, end)both paused;}
+  #a2{font-size:0.7vw; top:1750px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden; white-space: nowrap; border-right: .15em solid #fff; animation: typing2 1.5s 3.2s steps(40, end) both paused;}
+  #a3{font-size:0.7vw; top:1785px; width: 600px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing3 1.5s 5.1s steps(40, end)both paused;}
+  #a4{font-size:0.7vw; top:1820px; width: 400px; height: 30px; margin:auto; left: 24.5%; position: absolute; text-align: left; overflow: hidden;  white-space: nowrap; border-right: .15em solid #fff; animation: typing4 1.5s 6.85s steps(40, end) both paused, blink-caret .75s 5.35s step-end infinite both;}
     @keyframes typing {
       from {width: 0;}
       to {width: 32em; border-right: 0em;}}
@@ -83,44 +83,52 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
       to {width: 33.3em; border-right: 0em;}}
     @keyframes typing4 {
       from {width: 0; border-right: 0em;}
-      to {width: 32.9em;}}
+      to {width: 34em;}}
     @keyframes blink-caret {
       from, to {border-color: #cccccc}
       50% {border-color: #000;}}
 
-#field{display: block; width: 4000px; overflow: hidden; height: 560px; left: 0px; top: 260px; position: relative; transition: all 1s; animation: move 40s linear forwards paused; z-index: -1; white-space: normal;}
+#field{display: block; width: 4000px; overflow: hidden; height: 560px; left: 0px; top: 260px; position: relative; transition: all 1s; animation: move 50s linear forwards paused; z-index: -1; white-space: normal;}
   @keyframes move{
     0%{left: 0px;}
-    100%{left: -2000px;}}
+    100%{left: -2700px;}}
 
 
 
 
-#start{top:1860px; position: absolute; text-align: left;}
+#start{top:2160px; position: absolute; text-align: left;}
 
 #map1{position:relative; display: block; margin: auto; width:46vw; height:27vw;}
-.label {font-family: "Noto Serif KR", serif; background-color:white; font-size:12px; padding:10px; color: black;}
-#label2 {font-family: "Noto Serif KR", serif; width:180px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label3 {font-family: "Noto Serif KR", serif; width:190px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label4 {font-family: "Noto Serif KR", serif; width:160px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label5 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label6 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label7 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label8 {font-family: "Noto Serif KR", serif; width:270px; background-color:white; font-size:12px; padding:5px; color: black;}
-#label9 {font-family: "Noto Serif KR", serif; width:250px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label10 {font-family: "Noto Serif KR", serif; width:240px; background-color:white; font-size:12px; padding:10px; color: black;}
-#label11 {font-family: "Noto Serif KR", serif; width:220px; background-color:white; font-size:12px; padding:10px; color: black;}
+.label {font-family: "Noto Serif KR", serif; width:140px; background-color:white; font-size:12px; padding:10px; color: black;}
+#label2 {font-family: "Noto Serif KR", serif; width:160px; background-color:white; font-size:12px; padding:10px; color: black;}
 
 #dP_headline_Picture{display: block; width: 46vw; height: 32vw; position: relative; margin: auto; transition: all 1s;}
 
 
 
-#hovering:hover{background-color: #333333;}
 
-#dP_montage_1{display: block; position:relative;  margin:0px auto; margin-top: -340px; width:500px; height:620px; transition: all 0.15s ease-in;}
-#dP_montage_contents{width:410px; height: 320px; font-size:20px; top: 110px; margin:auto; position: relative; text-align: left; line-height:2.0; z-index:1; opacity: 0; visibility: visible; transition: all 0.15s ease-in;}
-#dP_montage_contents:hover{opacity: 1; visibility: visible;}
-#dP_montage_contents:hover + #dP_montage_1{opacity: 0.3;}
+#dP_montage_1{position:relative; margin:0px auto; width:14vw; height:18vw; transition: all 0.15s ease-in;}
+#dP_montage_contents_1{width:13vw; height: 12vw; top: 40.5vw;font-size:0.7vw; position: relative; text-align: left; line-height:2.0; z-index:1; opacity: 0; visibility: visible; text-shadow: 2px 2px 2px black; transition: all 0.15s ease-in;}
+#dP_montage_contents_1:hover{opacity: 1; visibility: visible;}
+#dP_montage_contents_1:hover + #dP_montage_1{opacity: 0.3;}
+
+#dP_montage_2{position:relative; margin:0px auto; left:30px; width:14vw; height:18vw; transition: all 0.15s ease-in;}
+#dP_montage_contents_2{width:13vw; height: 12vw; top:31vw; font-size:0.7vw;  left: 15.25vw; position: relative; text-align: left; line-height:2.0; z-index:1; opacity: 0; visibility: visible; text-shadow: 2px 2px 2px black; transition: all 0.15s ease-in;}
+#dP_montage_contents_2:hover{opacity: 1; visibility: visible;}
+#dP_montage_contents_2:hover + #dP_montage_2{opacity: 0.3;}
+
+#dP_montage_3{position:relative; margin:0px auto; left:60px; width:14vw; height:18vw; transition: all 0.15s ease-in;}
+#dP_montage_contents_3{width:13vw; height: 12vw; top:19vw; font-size:0.7vw;  left: 30.4vw; position: relative; text-align: left; line-height:2.0; z-index:1; opacity: 0; visibility: visible; text-shadow: 2px 2px 2px black; transition: all 0.15s ease-in;}
+#dP_montage_contents_3:hover{opacity: 1; visibility: visible;}
+#dP_montage_contents_3:hover + #dP_montage_3{opacity: 0.3;}
+
+#dP_victim_1{display: block; width: 32vw; height: 24vw; position: relative; margin: auto; transition: all 1s;}
+#dP_victim_2{display: block; width: 30vw; height: 30vw; position: relative; margin: auto; transition: all 1s;}
+#dP_victim_3{display: block; width: 32vw; height: 24vw; position: relative; margin: auto; transition: all 1s;}
+
+#dP_evidence_1{display: block; width: 24vw; height: 18vw; position: relative; margin: auto; transition: all 1s;}
+#dP_evidence_2{display: block; width: 30vw; height: 15vw; position: relative; margin: auto; transition: all 1s;}
+#dP_evidence_3{display: block; width: 28vw; height: 20vw; position: relative; margin: auto; transition: all 1s;}
 
 
 
