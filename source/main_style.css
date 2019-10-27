@@ -54,7 +54,7 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
 
 /* Contents */
 
-#container{display: block; font-size:15px; box-sizing: border-box; position: relative; left: 5%; width: 46vw; height: 17600px; margin: 0 auto; overflow: hidden; top:200px;}
+#container{display: block; font-size:15px; box-sizing: border-box; position: relative; left: 5%; width: 46vw; height: 16700px; margin: 0 auto; overflow: hidden; top:200px;}
 #container_contents{font-family: "Noto Serif KR", serif; text-align: left; color:#cccccc; line-height:2.0; font-size:15px;}
 #class_line{display: block; position: relative; color: #cccccc; left: 0.1%; z-index: -1;}
 #class_line_2{display: block; position: relative; color: #cccccc; left: 0.1%; z-index: -1;}
